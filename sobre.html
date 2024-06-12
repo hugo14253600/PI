@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Confeitaria</title>
+    <title>Minha Confeitaria - Sobre Nós</title>
     <link rel="stylesheet" href="css/styles.css">
     <style>
-        /* Estilos específicos para a página inicial */
-        .welcome {
+        /* Estilos específicos para a página Sobre */
+        .about-us {
             text-align: center;
             margin-top: 50px;
-            color: white; /* Define a cor do texto para branco para melhor contraste */
+            color: #333; /* Cor do texto */
             padding: 20px;
         }
-        .welcome h2 {
+        .about-us h2 {
             font-size: 2em;
             margin-bottom: 20px;
         }
-        .welcome p {
+        .about-us p {
             font-size: 1.2em;
             line-height: 1.5;
         }
-        body.home {
-            background: url('img/fundo.jpg') no-repeat center top;
-            background-size: cover;
-            background-attachment: fixed; /* Mantém a imagem fixa enquanto a página é rolada */
+        body.about {
+            background-color: #f2f2f2; /* Cor de fundo */
             display: flex;
             flex-direction: column;
             min-height: 100vh; /* Garante que a página tenha pelo menos a altura da janela visível */
@@ -46,10 +44,13 @@
             text-align: center;
             padding: 10px;
             width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
         }
     </style>
 </head>
-<body class="home">
+<body class="about">
     <header>
         <div class="container">
             <h1>Minha Confeitaria</h1>
@@ -69,9 +70,9 @@
     </header>
 
     <section class="main-content">
-        <div class="welcome">
-            <h2>Bem-vindo ao nosso site!</h2>
-            <p>Na Minha Confeitaria, nos orgulhamos de oferecer produtos de alta qualidade, feitos com os melhores ingredientes e muito carinho. Cada bolo, doce e sobremesa é preparado com a máxima atenção aos detalhes para garantir que você tenha a melhor experiência possível.</p>
+        <div class="about-us">
+            <h2>Sobre Nós</h2>
+            <p>Nós da Minha Confeitaria temos o compromisso de oferecer produtos de alta qualidade, feitos com os melhores ingredientes e muito carinho. Fundada em 2020, nossa confeitaria se destaca pela variedade e sabor incomparável de nossos bolos, doces e sobremesas. Venha nos visitar e experimente você mesmo!</p>
         </div>
     </section>
 
