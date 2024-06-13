@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Confeitaria</title>
+    <title>Fernada Bolos e Doces</title>
     <link rel="stylesheet" href="css/styles.css">
     <style>
         /* Estilos específicos para a página inicial */
         .welcome {
             text-align: center;
             margin-top: 50px;
-            color: white; /* Define a cor do texto para branco para melhor contraste */
+            color: #333; /* Define a cor do texto para preto */
             padding: 20px;
+            background: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+            border-radius: 10px; /* Cantos arredondados */
+            max-width: 800px; /* Largura máxima do quadro */
+            margin-left: auto; /* Centraliza o quadro horizontalmente */
+            margin-right: auto; /* Centraliza o quadro horizontalmente */
         }
         .welcome h2 {
             font-size: 2em;
@@ -39,6 +44,9 @@
         }
         .main-content {
             flex: 1; /* Ocupa todo o espaço restante */
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         footer {
             background-color: #333;
@@ -52,7 +60,7 @@
 <body class="home">
     <header>
         <div class="container">
-            <h1>Minha Confeitaria</h1>
+            <h1>Fernada Bolos e Doces</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -60,6 +68,7 @@
                     <li><a href="produtos.html">Produtos</a></li>
                     <li><a href="galeria.html">Galeria</a></li>
                     <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
                 </ul>
             </nav>
         </div>
@@ -71,7 +80,11 @@
     <section class="main-content">
         <div class="welcome">
             <h2>Bem-vindo ao nosso site!</h2>
-            <p>Na Minha Confeitaria, nos orgulhamos de oferecer produtos de alta qualidade, feitos com os melhores ingredientes e muito carinho. Cada bolo, doce e sobremesa é preparado com a máxima atenção aos detalhes para garantir que você tenha a melhor experiência possível.</p>
+            <p>Imagine um lugar onde cada mordida é uma experiência celestial, onde os aromas deliciosos dançam no ar e os sabores encantadores enchem seu paladar de felicidade. Este lugar existe, e é aqui, na Fernanda Bolos, onde a magia da confeitaria se torna realidade.</p>
+            <p>Na nossa casa, cada doce é uma obra-prima artesanal, criada com paixão e dedicação para garantir que cada cliente tenha uma experiência verdadeiramente memorável. Utilizamos apenas os melhores ingredientes, desde o mais puro chocolate até as frutas frescas da estação, para garantir que cada criação seja um verdadeiro deleite para os sentidos.</p>
+            <p>Explore a nossa galeria e descubra uma variedade de opções irresistíveis que irão satisfazer até os paladares mais exigentes.
+                De bolos clássicos a tortas exóticas, temos algo para todos os gostos e ocasiões. E se estiver procurando por algo especial, não hesite em nos informar. Estamos sempre dispostos a criar sob encomenda para tornar seus momentos ainda mais especiais.</p>
+            <p>Então, venha nos visitar, deixe-se levar pelo doce encanto da Fernanda Bolos e faça parte da nossa história. Estamos ansiosos para recebê-lo e compartilhar momentos de pura doçura juntos.</p>
         </div>
     </section>
 
